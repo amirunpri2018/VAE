@@ -62,7 +62,7 @@ lowerbound = np.array([])
 testlowerbound = np.array([])
 
 begin = time.time()
-for j in xrange(150):
+for j in xrange(500):
     encoder.lowerbound = 0
     print 'Iteration:', j
     encoder.iterate(data)
